@@ -1,4 +1,4 @@
-package com.nsprung.fbtest;
+package com.reduce.client;
 
 import android.annotation.SuppressLint;
 import android.app.Application;
