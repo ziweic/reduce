@@ -1,4 +1,4 @@
-package com.nsprung.fbtest;
+package com.reduce.retail;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "fbtest";
+        return "retail";
     }
 }
