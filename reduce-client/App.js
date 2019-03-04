@@ -24,19 +24,19 @@ export default class App extends React.Component {
     //     });
     //   });
 
-    firebase.auth()
-      .signInWithEmailAndPassword('nas229@cornell.edu', 'farfartfar@123')
-      .then(() => {
-        this.setState({
-          isAuth: true,
-        });
+    // firebase.auth()
+    //   .signInWithEmailAndPassword('nas229@cornell.edu', 'farfartfar@123')
+    //   .then(() => {
+    //     this.setState({
+    //       isAuth: true,
+    //     });
 
-      });
+    //   });
 
   }
 
   render() {
-    if (!this.state.isAuth) return null;
+    // if (!this.state.isAuth) return null;
 
     return (
       <ScrollView>
