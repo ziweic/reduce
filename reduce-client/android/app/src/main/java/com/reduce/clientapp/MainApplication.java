@@ -1,4 +1,4 @@
-package com.reduce.client;
+package com.reduce.clientapp;
 
 import android.annotation.SuppressLint;
 import android.app.Application;
